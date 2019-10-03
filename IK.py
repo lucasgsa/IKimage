@@ -4,6 +4,7 @@
 
 from PIL import ImageGrab,Image 
 import pytesseract
+// Essa linha é apenas para evitar um erro dado no meu pc, talvez em outro não precisa, só tirar se perceber esse erro.
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 class IKimage():
